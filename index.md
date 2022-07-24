@@ -1,65 +1,87 @@
-## **The Hexagons Task**
+## **The Hexagons**
 
-TNE is an NLU task, which focus on relations between noun phrases (NPs) that can be
-mediated via prepositions. 
-The dataset contains [5,497](https://yanaiela.github.io/TNE/#download) documents, annotated exhaustively with all possible
-links between the NPs in each document.
+The Natural Language Programming and Computational Thinking (NLPROg-CT) project at the [ONLP lab](https://nlp.biu.ac.il/~rtsarfaty/onlp) strives to explore the mutual interaction between human Computational Thinking and AI/NLP systems in order to contribute to the development of Natural Language Programming as well as advancing human Computational Thinking through Natural Language Programming. 
 
-The main data comes from WikiNews, which is used for train/dev/test. We also collected an additional set of
-509 documents to serve as OOD, from Books, IMDB reviews and Reddit.
+Our first initiative is the design of Hexagons [App](https://edtechr.github.io/hexagonsDemo/App) and [Game](https://edtechr.github.io/hexagonsDemo/Game). We use this game to collect the Hexagons dataset which focuses on a prominent CT skill, namely, abstraction. This [dataset](https://edtechr.github.io/hexagonsDemo/dataset) comprises 4176 naturally-occurring visually grounded instructions rich with diverse
+types and levels of abstractions. From this data, we derive an instruction-to-execution task to train and test NLP models’ capability to process and ground abstractions. 
 
-This dataset was created by a team of [NLP researchers](#authors) at [Bar-Ilan University](https://biu-nlp.github.io/)
-and [Allen Institute for AI](https://allenai.org/).
+To showcase how this data may be used for studying abstraction processing in NL, we derive an instruction-to-execution task, where the model needs to ground and execute NL
+instructions on the Hexagons board. As baselines, we propose two neural modeling alternatives — one based on classification (DeBERTa) and the other on generation (T5). Our results show that contemporary models and modeling practices are substantially inferior
+to human performance, and that models’ performance is inversely correlated with the
+level of abstraction, showing less satisfying performance on higher levels of abstraction.
+These findings are consistent across models and setups, confirming that abstraction is a
+challenging phenomenon NLP systems. 
+
+Please refer to our [paper](https://arxiv.org/abs/2106.14321) for more details.
+
+We invite you to join us in the endeavor to improve models’ abstraction capabilities!
+Explore the Hexagons [App](https://edtechr.github.io/hexagonsDemo/App) and [Game](https://edtechr.github.io/hexagonsDemo/Game), get yourself familiar with the dataset through the [dataset visualization](https://edtechr.github.io/hexagonsDemo/visualization), explore our [baseline](https://edtechr.github.io/hexagonsDemo/Models) capabilities, and download the [dataset](https://edtechr.github.io/hexagonsDemo/dataset) to devise your own cutting-edge model! 
+
+The project is run by the [NLPROg-CT team](#team) and directed by Prof. Reut Tsarfaty  [Bar-Ilan University](https://biu-nlp.github.io/)
+and [Allen Institute for AI](https://allenai.org/).  
 
 
-For more details on TNE, please refer to our [paper](#paper).  
 
 <center>
-    <a href="media/tne-figure.png"> 
-        <img src="media/tne-figure.png" height="600">
+    <a href="media/first_page_figure.png"> 
+        <img src="media/first_page_figure.png" height="600">
       </a>
 </center>
 
 
 ## **Paper**
 
-[**Text-based NP Enrichment**](https://arxiv.org/abs/2109.12085)
-Yanai Elazar, Victoria Basmov, Yoav Goldberg, Reut Tsarfaty
-*arxiv, 2021*  
+[**Draw me a Flower: Processing and Grounding Abstraction in Natural Language**](https://arxiv.org/abs/2106.14321)
+Royi Lachmy, Valentina Pyatkin, Avshalom Manevich, Reut Tsarfaty
+*arxiv, 2022*  
 
 ```markdown
-@article{tne,
-Author = {Yanai Elazar and Victoria Basmov and Yoav Goldberg and Reut Tsarfaty},
-Title = {Text-based NP Enrichment},
-Year = {2021},
-Eprint = {arXiv:2109.12085},
+@article{hexagons,
+  title={Draw me a Flower: [P]rocessing and Grounding Abstraction in Natural Language},
+  author={Lachmy, Royi and Pyatkin, Valentina and Manevich, Avshalom and Tsarfaty, Reut},  
+  year={2022},
+  Eprint = {arXiv:2106.14321}  
 }
+
 ```
 
 ## **Authors**
 <div>
 <div class="card">
-  <img src="media/yanai.png" alt="Avatar" style="width:100%">
+  <img src="media/royi.png" alt="Avatar" style="width:100%">
   <div class="container">
-    <a href="https://yanaiela.github.io/">
-    <h4><b>Yanai Elazar</b></h4>  
+    <!--  <a href="https://">-->
+    <h4><b>Royi Lachmy</b></h4>  
     </a>
   </div>
 </div>
+
 <div class="card">
-  <img src="media/vika.png" alt="Avatar" style="width:100%">
+  <img src="media/valentina.png" alt="Avatar" style="width:100%">
   <div class="container">
-    <h4><b>Victoria Basmov</b></h4>
+    <a href="https://valentinapy.github.io/">
+    <h4><b>Valentina Pyatkin</b></h4>
   </div>
 </div>
+
 <div class="card">
-  <img src="media/yoav.jpeg" alt="Avatar" style="width:100%">
+  <img src="media/avshalom.jpeg" alt="Avatar" style="width:100%">
   <div class="container">
-    <a href="https://www.cs.bgu.ac.il/~yoavg/uni/">
-    <h4><b>Yoav Goldberg</b></h4>  
+    <!--  <a href="https://">-->
+    <h4><b>Avshalom Manevich</b></h4>  
     </a>
   </div>
 </div>
+
+<div class="card">
+  <img src="media/shira.jpeg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <!--  <a href="https://">-->
+    <h4><b>Shira Kritchman</b></h4>  
+    </a>
+  </div>
+</div>
+
 <div class="card">
   <img src="media/reut.jpeg" alt="Avatar" style="width:100%">
   <div class="container">
@@ -72,26 +94,13 @@ Eprint = {arXiv:2109.12085},
 </div>
 
 
-## **Leaderboard**
 
-### **Submission**
-Evaluating predictions for the hidden test set is done via the [AI2 Leaderboard page](https://leaderboard.allenai.org/).
-Log on to the leaderboard website and follow the submission instructions.
-* **[TNE Leaderboard](https://leaderboard.allenai.org/tne/)**
-* **[TNE OOD Leaderboard](https://leaderboard.allenai.org/tne-ood/)**  
-<a href="https://leaderboard.allenai.org/tne/">
-  <img src="media/tne.svg" height="100">
-</a>
-<a href="https://leaderboard.allenai.org/tne-ood/">
-  <img src="media/tne-ood.svg" height="100">
-</a>
+# **Explore**
 
-## **Explore**
+# To view the Hexagons dataset, [explore Hexagons Visualization tab](/visualization.md).
 
-To view (many) more TNE examples, [explore TNE](/explore.md).
+# **Download**
 
-## **Download**
-
-- For the full documentation of the dataset and its format please refer to our 
-[Github repository](https://github.com/yanaiela/TNE#data-format).  
-- Click here to [download TNE](https://github.com/yanaiela/TNE#Download).
+# - For the full documentation of the dataset and its format please refer to our 
+# [Github repository](https://github.com/edtechr/hexagonsDemo).  
+# - Click here to [download Hexagons](https://github.com/edtechr/hexagonsDemo#Dataset).
