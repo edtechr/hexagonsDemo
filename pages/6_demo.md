@@ -4,7 +4,6 @@ permalink: /demo/
 ---
 
 ## DEMO
-(Under construction)
-
+(Under construction).<br/>
 [Home](/hexagonsDemo)
 

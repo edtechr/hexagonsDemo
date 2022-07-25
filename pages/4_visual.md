@@ -4,7 +4,6 @@ permalink: /visual/
 ---
 
 ## Visualization
-(Under construction)
-
+(Under construction).<br/>
 [Home](/hexagonsDemo)
 

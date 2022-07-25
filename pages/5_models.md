@@ -4,7 +4,5 @@ permalink: /models/
 ---
 
 ## MODELS
-(Under construction)
-
+(Under construction).<br/>
 [Home](/hexagonsDemo)
-
