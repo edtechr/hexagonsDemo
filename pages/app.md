@@ -18,6 +18,8 @@ permalink: /appi/
 
 [Game9c](game)
 
+[Game9d](/gamed)
+
 [dataset1](dataset.md)
 
 [dataset2](dataset)
