@@ -2,7 +2,7 @@
 
 The Natural Language Programming and Computational Thinking (NLPROg-CT) project at the [ONLP lab](https://nlp.biu.ac.il/~rtsarfaty/onlp) strives to explore the mutual interaction between human Computational Thinking and AI/NLP systems in order to contribute to the development of Natural Language Programming as well as advancing human Computational Thinking through Natural Language Programming. 
 
-Our first initiative is the design of the Hexagons [App](https://edtechr.github.io/hexagonsDemo/App) and [Game](https://edtechr.github.io/hexagonsDemo/Game). We use this game to collect the Hexagons dataset which focuses on a prominent CT skill, namely, abstraction. This [dataset](https://edtechr.github.io/hexagonsDemo/dataset) comprises 4176 naturally-occurring visually grounded instructions rich with diverse
+Our first initiative is the design of the Hexagons [App](https://edtechr.github.io/hexagonsDemo/App) and [Game](https://edtechr.github.io/hexagonsDemo/Game). We use this game to collect the Hexagons dataset which focuses on a prominent Computational Thinking skill, namely, <b> abstraction </b>. This [dataset](https://edtechr.github.io/hexagonsDemo/dataset) comprises 4176 naturally-occurring visually grounded instructions rich with diverse
 types and levels of abstractions. 
 
 To showcase how this data may be used for studying abstraction processing in NL, we derive an instruction-to-execution task, where the model needs to ground and execute NL
@@ -15,9 +15,9 @@ challenging phenomenon NLP systems.
 Please refer to our [paper](https://arxiv.org/abs/2106.14321) for more details.
 
 We invite you to join us in the endeavor to improve models’ abstraction capabilities! <br/>
-Explore the Hexagons [App](https://edtechr.github.io/hexagonsDemo/App) and [Game](https://edtechr.github.io/hexagonsDemo/Game), get yourself familiar with the dataset through the [dataset visualization](https://edtechr.github.io/hexagonsDemo/visualization), [explore](https://edtechr.github.io/hexagonsDemo/explore) our [baseline](https://edtechr.github.io/hexagonsDemo/Models) capabilities, and download the [dataset](https://edtechr.github.io/hexagonsDemo/dataset) to devise your own cutting-edge model! 
+Explore the Hexagons [App](/app.md) and [Game](https://edtechr.github.io/hexagonsDemo/Game), get yourself familiar with the dataset through the [dataset visualization](https://edtechr.github.io/hexagonsDemo/visualization), [explore](https://edtechr.github.io/hexagonsDemo/explore) our [baseline](https://edtechr.github.io/hexagonsDemo/Models) capabilities, and download the [dataset](https://edtechr.github.io/hexagonsDemo/dataset) to devise your own cutting-edge model! 
 
-The project is run by the [NLPROg-CT team](#team) and directed by Prof. [Reut Tsarfaty](https://nlp.biu.ac.il/~rtsarfaty/) at  [Bar-Ilan University](https://biu-nlp.github.io/)
+The project is run by the [NLPROg-CT team](#Project Team) and directed by Prof. [Reut Tsarfaty](https://nlp.biu.ac.il/~rtsarfaty/) at  [Bar-Ilan University](https://biu-nlp.github.io/)
 and [Allen Institute for AI](https://allenai.org/).  
 
 
@@ -37,7 +37,7 @@ Royi Lachmy, Valentina Pyatkin, Avshalom Manevich, Reut Tsarfaty
 
 ```markdown
 @article{hexagons,
-  title={Draw me a Flower: [P]rocessing and Grounding Abstraction in Natural Language},
+  title={Draw me a Flower: {P}rocessing and Grounding Abstraction in Natural Language},
   author={Lachmy, Royi and Pyatkin, Valentina and Manevich, Avshalom and Tsarfaty, Reut},  
   year={2022},
   Eprint = {arXiv:2106.14321}  
@@ -97,12 +97,13 @@ Royi Lachmy, Valentina Pyatkin, Avshalom Manevich, Reut Tsarfaty
 
 
 
-# **Explore**
+<!-- **Explore**
 
-# To view the Hexagons dataset, [explore Hexagons Visualization tab](/visualization.md).
+To view the Hexagons dataset, [explore Hexagons Visualization tab](/visualization.md).
 
-# **Download**
+**Download**
 
-# - For the full documentation of the dataset and its format please refer to our 
-# [Github repository](https://github.com/edtechr/hexagonsDemo).  
-# - Click here to [download Hexagons](https://github.com/edtechr/hexagonsDemo#Dataset).
+- For the full documentation of the dataset and its format please refer to our 
+[Github repository](https://github.com/edtechr/hexagonsDemo).  
+- Click here to [download Hexagons](https://github.com/edtechr/hexagonsDemo#Dataset).
+-->
