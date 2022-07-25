@@ -20,15 +20,16 @@ Explore the Hexagons [App](/pages/app) and [Game](/pages/game), get yourself fam
 The project is run by the [NLPROg-CT team](#team) and directed by Prof. [Reut Tsarfaty](https://nlp.biu.ac.il/~rtsarfaty/) at  [Bar-Ilan University](https://biu-nlp.github.io/)
 and [Allen Institute for AI](https://allenai.org/).  
 
-[Game](/gamed)
-[Game](hexagonsDemo/gamed)
-[Game](hexagonsDemo/pages/game.md)
-[Game](/pages/game.md)
-[Game](https://edtechr.github.io/hexagonsDemo/gamed)
-[Game](https://edtechr.github.io/hexagonsDemo/pages/game)
-[Game]({{ gamed.url | relative_url }})
-[Game]({{ game.url | relative_url }})
+[Game1](/gamed)
+[Game2](/hexagonsDemo/gamed)
+[Game3](/hexagonsDemo/pages/game.md)
+[Game4](/pages/game.md)
+[Game5](https://edtechr.github.io/hexagonsDemo/gamed)
+[Game6](https://edtechr.github.io/hexagonsDemo/pages/game)
+[Game7]({{ gamed.url | relative_url }})
+[Game8]({{ game.url | relative_url }})
 
+[Game9](gamed)
 
 <center>
     <a href="media/first_page_figure.png"> 
