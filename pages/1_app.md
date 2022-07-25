@@ -4,7 +4,8 @@ permalink: /app/
 ---
 
 ## APP
-(Under construction).<br/>
+(Under construction)
+
 [Home](/hexagonsDemo)
 
 

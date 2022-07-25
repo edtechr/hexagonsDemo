@@ -4,7 +4,8 @@ permalink: /game/
 ---
 
 ## GAME
-((Under construction).<br/>
+(Under construction)
+
 [Home](/hexagonsDemo)
 
 

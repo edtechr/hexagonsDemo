@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+# The Hexagons
 
-You can use the [editor on GitHub](https://github.com/edtechr/hexagonsDemo3/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<img align="left" src="media/flower_favicon_full.PNG" height="100"></img>
+This repository contains the data used to train and evaluate the instruction-to-execution task derived from the Hexagons dataset.
+The Hexagons dataset comprises 4176 naturally-occurring visually grounded instructions rich with diverse types and levels of abstractions.
+For more details about the framework of the Hexagons dataset as well as the Hexagons App and Game, 
+abstraction elicitation methodology, dataset and baseline models please refer to our
+[paper](https://edtechr.github.io/hexagonsDemo/#paper)
+and [website](https://edtechr.github.io/hexagonsDemo/). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Dataset
 
-### Markdown
+### Download
+* [Train](https://github.com/edtechr/hexagonsDemo/tree/main/data/train.jsonl.gz)
+* [Dev](https://github.com/edtechr/hexagonsDemo/tree/main/data/dev.jsonl.gz)
+* [Test](https://github.com/edtechr/hexagonsDemo/tree/main/data/test.jsonl.gz)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+### Dataset Description
+
+For details about the data please refer to the [dataset section](https://edtechr.github.io/hexagonsDemo/dataset/)
+in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](https://edtechr.github.io/hexagonsDemo/#paper).
+
+### Data Format
+
+The dataset is split into three files of train, dev and test with with an 80/10/10 ratio of the
+drawing procedures (For more details on the split rationale refer to our our [paper](https://edtechr.github.io/hexagonsDemo/#paper)). 
+Each file is in a jsonl format where each entry is a dictionary of a single drawing procedure. 
+A drawing procedure consists of: 
+
+*'index': a unique identifier of a drawing procedure marked as a number between 0 and 619 such that the numbers run across train/dev/test in a random order. 
+This index is synchornized with the [dataset visualization](https://edtechr.github.io/hexagonsDemo/visual/) index, in order to allow user to visualize the drawing procedure by index.
+
+## Citation
 ```markdown
-Syntax highlighted code block
+@article{hexagons,
+  title={Draw me a Flower: {P}rocessing and Grounding Abstraction in Natural Language},
+  author={Lachmy, Royi and Pyatkin, Valentina and Manevich, Avshalom and Tsarfaty, Reut},  
+  year={2022},
+  Eprint = {arXiv:2106.14321}  
+}
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Terms of Use
+- By downloading the data on this page the user acknowledges that their use will be restricted to research and/or academic purposes only.
+- Resources on this page are licensed CC-BY 4.0, a Creative Commons license requiring Attribution (https://creativecommons.org/licenses/by/4.0/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edtechr/hexagonsDemo3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Changelog
+- `XX/08/2022` The Hexagons dataset was released:  TACL paper + dataset + website.
+- `27/06/2021` First arXiv version of the paper was released.
 
-### Support or Contact
+ 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
