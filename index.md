@@ -30,6 +30,8 @@ and [Allen Institute for AI](https://allenai.org/).
 [Game8]({{ game.url | relative_url }})
 
 [Game9](gamed)
+[Game10](/pages/game)
+
 
 <center>
     <a href="media/first_page_figure.png"> 
