@@ -15,7 +15,7 @@ challenging phenomenon NLP systems.
 Please refer to our [paper](https://arxiv.org/abs/2106.14321) for more details.
 
 We invite you to join us in the endeavor to improve models’ abstraction capabilities! <br/>
-Explore the Hexagons [App](/app.md) and [Game](https://edtechr.github.io/hexagonsDemo/Game), get yourself familiar with the dataset through the [dataset visualization](https://edtechr.github.io/hexagonsDemo/visualization), [explore](https://edtechr.github.io/hexagonsDemo/explore) our [baseline](https://edtechr.github.io/hexagonsDemo/Models) capabilities, and download the [dataset](https://edtechr.github.io/hexagonsDemo/dataset) to devise your own cutting-edge model! 
+Explore the Hexagons [App](/app.md) and [Game](https://edtechr.github.io/hexagonsDemo/game), get yourself familiar with the dataset through the [dataset visualization](https://edtechr.github.io/hexagonsDemo/visualization), [explore](https://edtechr.github.io/hexagonsDemo/explore) our [baseline](https://edtechr.github.io/hexagonsDemo/Models) capabilities, and download the [dataset](https://edtechr.github.io/hexagonsDemo/dataset) to devise your own cutting-edge model! 
 
 The project is run by the [NLPROg-CT team](#Project Team) and directed by Prof. [Reut Tsarfaty](https://nlp.biu.ac.il/~rtsarfaty/) at  [Bar-Ilan University](https://biu-nlp.github.io/)
 and [Allen Institute for AI](https://allenai.org/).  
