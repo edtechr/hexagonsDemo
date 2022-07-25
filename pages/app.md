@@ -1,3 +1,7 @@
+---
+permalink: /appi/
+---
+
 ## APP
 (Under construction)
 
@@ -9,6 +13,10 @@
 [Game5](https://edtechr.github.io/hexagonsDemo/gamed)
 
 [Game9](../gamed)
+
+[Game9b](gamed)
+
+[Game9c](game)
 
 [dataset1](dataset.md)
 
