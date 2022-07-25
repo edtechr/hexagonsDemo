@@ -6,5 +6,5 @@ permalink: /models/
 ## MODELS
 (Under construction)
 
-[Home] (/hexagonsDemo)
+[Home](/hexagonsDemo)
 

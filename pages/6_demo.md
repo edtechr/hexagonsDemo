@@ -6,5 +6,5 @@ permalink: /demo/
 ## DEMO
 (Under construction)
 
-[Home] (/hexagonsDemo)
+[Home](/hexagonsDemo)
 

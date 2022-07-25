@@ -6,5 +6,5 @@ permalink: /app/
 ## APP
 (Under construction)
 
-[Home] (/hexagonsDemo)
+[Home](/hexagonsDemo)
 

@@ -5,7 +5,7 @@ permalink: /game/
 
 ## GAME
 (Under construction)
-[Home] (/hexagonsDemo)
+[Home](/hexagonsDemo)
 
 
 

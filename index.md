@@ -2,7 +2,7 @@
 
 The Natural Language Programming and Computational Thinking (NLPROg-CT) project at the [ONLP lab](https://nlp.biu.ac.il/~rtsarfaty/onlp) strives to explore the mutual interaction between human Computational Thinking and AI/NLP systems in order to contribute to the development of Natural Language Programming as well as advancing human Computational Thinking through Natural Language Programming. 
 
-Our first initiative is the design of the Hexagons [App](/pages/app) and [Game](/pages/game)  [Game](/gamed). We use this game to collect the Hexagons dataset which focuses on a prominent Computational Thinking skill, namely, <b> abstraction</b>. This [dataset](/dataset) comprises 4176 naturally-occurring visually grounded instructions rich with diverse
+Our first initiative is the design of the Hexagons [App](/hexagonsDemo/app) and [Game](/hexagonsDemo/game). We use this game to collect the Hexagons dataset which focuses on a prominent Computational Thinking skill, namely, <b> abstraction</b>. This [dataset](/hexagonsDemo/dataset) comprises 4176 naturally-occurring visually grounded instructions rich with diverse
 types and levels of abstractions. 
 
 To showcase how this data may be used for studying abstraction processing in NL, we derive an instruction-to-execution task, where the model needs to ground and execute NL
@@ -12,20 +12,13 @@ level of abstraction, showing less satisfying performance on higher levels of ab
 These findings are consistent across models and setups, confirming that abstraction is a
 challenging phenomenon NLP systems. 
 
-Please refer to our [paper](https://arxiv.org/abs/2106.14321) for more details.
+Please refer to our [paper](#paper) for more details.
 
 We invite you to join us in the endeavor to improve models’ abstraction capabilities! <br/>
-Explore the Hexagons [App](/pages/app) and [Game](/pages/game), get yourself familiar with the dataset through the [dataset visualization](/visualization), [explore](/demo) our [baseline](models) capabilities, and download the [dataset](/dataset) to devise your own cutting-edge model! 
+Explore the Hexagons [App](/hexagonsDemo/app) and [Game](/hexagonsDemo/game), get yourself familiar with the dataset through the [dataset visualization](/hexagonsDemo/visual), explore our [baseline models](models) capabilities in the [demo](/hexagonsDemo/demo), and download the [dataset](/hexagonsDemo/dataset) to devise your own cutting-edge model! 
 
 The project is run by the [NLPROg-CT team](#team) and directed by Prof. [Reut Tsarfaty](https://nlp.biu.ac.il/~rtsarfaty/) at  [Bar-Ilan University](https://biu-nlp.github.io/)
 and [Allen Institute for AI](https://allenai.org/).  
-
-[app](/hexagonsDemo/app)
-[game](/hexagonsDemo/game)
-[dataset](/hexagonsDemo/dataset)
-[visualization](/hexagonsDemo/visual)
-[models](/hexagonsDemo/models)
-[demo](/hexagonsDemo/demo)
 
 
 <center>

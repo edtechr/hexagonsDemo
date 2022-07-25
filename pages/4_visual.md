@@ -6,5 +6,5 @@ permalink: /visual/
 ## Visualization
 (Under construction)
 
-[Home] (/hexagonsDemo)
+[Home](/hexagonsDemo)
 

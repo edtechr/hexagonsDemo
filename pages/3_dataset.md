@@ -6,5 +6,5 @@ permalink: /dataset/
 ## DATASET
 (Under construction)
 
-[Home] (/hexagonsDemo)
+[Home](/hexagonsDemo)
 
