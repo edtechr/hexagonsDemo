@@ -8,9 +8,9 @@
 
 [Game5](https://edtechr.github.io/hexagonsDemo/gamed)
 
-[Game9](./gamed)
+[Game9](../gamed)
 
-[dataset1][dataset.md]
+[dataset1](dataset.md)
 
-[dataset2][dataset]
+[dataset2](dataset)
 
