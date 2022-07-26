@@ -50,9 +50,10 @@ each tag corresponds to a single drawing procedure. The tags can take one of the
     - 'V2': Only Verifier 2 agrees with the Instructor*. 
     - 'VV': Verifiers agree with each other, but not with the Instructor. 
     - 'F':  Verifiers does not agree with each other, neither with the Instructor.       
+    
     *The index next to the Verifiers is meaningless. 'V1' or 'V2' just means that only one Verifier agrees with the Instructor,
-    and the index helps us to track which one. 
-For further details on the agreement and metrics please refer to the [dataset section](https://edtechr.github.io/hexagonsDemo/dataset/)
+    and the index helps us to track which one. <br/>
+    For further details on the agreement and metrics please refer to the [dataset section](https://edtechr.github.io/hexagonsDemo/dataset/)
 in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](https://edtechr.github.io/hexagonsDemo/#paper). 
 * `agreement_scores`:  a list of tuples similar to the `agreement_tags` but the agreement is calculated 
 by the Board-Based _F1_ metric. A single tuple $(i_1, i_2, i_3)$ corresponds to a single drawing procedure where:
