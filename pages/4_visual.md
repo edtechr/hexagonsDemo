@@ -3,7 +3,7 @@ title: Visualization
 permalink: /visual/
 ---
 
-## Visualization1
+## Visualization
 
 <button id="full_screen" type="button" class="btn btn-primary btn-sm" onclick="fullScreen()">Go Full-Screen</button>
 
@@ -16,11 +16,5 @@ permalink: /visual/
         
         }
         
-    // Selecting the iframe element
-    var iframe = document.getElementById("data_visualization");
     
-    // Adjusting the iframe height onload event
-    iframe.onload = function(){
-        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-    }
 </script>
