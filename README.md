@@ -56,7 +56,7 @@ each tag corresponds to a single drawing procedure. The tags can take one of the
     For further details on the agreement and metrics please refer to the [dataset section](https://edtechr.github.io/hexagonsDemo/dataset/)
 in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](https://edtechr.github.io/hexagonsDemo/#paper). 
 * `agreement_scores`:  a list of tuples similar to the `agreement_tags` but the agreement is calculated 
-by the Board-Based _F1_ metric. A single tuple $(i_1, i_2, i_3)$ corresponds to a single drawing procedure where:
+by the Board-Based _F1_ metric. <br/> A single tuple $(i_1, i_2, i_3)$ corresponds to a single drawing procedure where:
     - $i_1$ is the F1 score between the Instrcutor's and Verifier 1's executions.
     - $i_2$ is the F1 score between the Instrcutor's and Verifier 2's executions.
     - $i_3$ is the F1 score between the executions of both Verifiers.
@@ -68,8 +68,8 @@ in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](htt
      - id: a number inidcating the drawing step position in the procedure*. 
      - instructions: the instructions written by the Instructor in that step.
      - board state: a list of 180 digits indicating the resulted board state following the execution of the instructions by the Instructor. 
-     The board size is 10 rows x 18 columns and is numbered left-to-right top-to-bottom as follow: 
-     <img align="center" src="media/hexagon_board_numbered.PNG" height="200"></img>
+     The board size is 10 rows x 18 columns and is numbered left-to-right top-to-bottom as follow: <br/>     
+     <img align="center" src="media/hexagon_board_numbered.PNG" height="200"></img> <br/>
      The digits run from 0 to 7 and stands for colors as follow: 
         - '0': white
         - '1': black
@@ -83,7 +83,7 @@ in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](htt
     *The drawing steps are ordered from the first step to the last step starting with 0. 
     The 0-step stands for the initial board state (i.e., a blank board) prior to the first set of instructions, 
     hence, does not consists of any instruction (the instruction element is actually "NONE"). <br/> Note that the length of a drawing proceudre (i.e., number of drawing steps) does not refer to the 0-step 
-    (e.g., a drawing procedure in length of 6 consists of 6 drawing steps nubered from 1 to 6 _in addition_ to the 0-step).
+    (e.g., a drawing procedure in length of 6 consists of 6 drawing steps numbered from 1 to 6 _in addition_ to the 0-step).
    
      
 ## Citation
