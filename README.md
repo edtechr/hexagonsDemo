@@ -60,11 +60,31 @@ by the Board-Based _F1_ metric. A single tuple $(i_1, i_2, i_3)$ corresponds to 
     - $i_1$ is the F1 score between the Instrcutor's and Verifier 1's executions.
     - $i_2$ is the F1 score between the Instrcutor's and Verifier 2's executions.
     - $i_3$ is the F1 score between the executions of both Verifiers.
- - `drawing_procedure`:    
-
-For further details on the agreement and metrics please refer to the [dataset section](https://edtechr.github.io/hexagonsDemo/dataset/)
+    
+    For further details on the agreement and metrics please refer to the [dataset section](https://edtechr.github.io/hexagonsDemo/dataset/)
 in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](https://edtechr.github.io/hexagonsDemo/#paper). 
+ - `drawing_procedure`: A list of lists representing a drawing procedure. A sub-list [id, instruction, board state] 
+ stands for a single drawing step and consists of: 
+     - id: a number inidcating the drawing step position in the procedure*. 
+     - instructions: the instructions written by the Instructor in that step.
+     - board state: a list of 180 digits indicating the resulted board state following the execution of the instructions by the Instructor. 
+     The board size is 10 rows x 18 columns and is numbered left-to-right top-to-bottom as follow: 
+     <img align="center" src="media/hexagon_board_numbered.PNG" height="200"></img>
+     The digits run from 0 to 7 and stands for colors as follow: 
+         - '0': white
+         - '1': black
+         - '2': yellow
+         - '3': green
+         - '4': red
+         - '5': blue
+         - '6': purple 
+         - '7': orange
 
+    *The drawing steps are ordered from the first step to the last step starting with 0. 
+    The 0-step stands for for the initial board state (i.e., a blank board) prior to the first set of instructions, 
+    hence, does not consists of any instruction (the instruction element is "NONE"). <br/>    
+    Note that the length of the drawing proceudre (i.e., number of drawing steps) does not refer to the 0-step 
+    (e.g., a 6-length drawing procedure consists of 6 drawing steps from 1 to 6 in addition to the 0-step). 
    
      
 ## Citation
