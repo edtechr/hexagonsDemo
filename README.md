@@ -83,10 +83,12 @@ in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](htt
          - '7': orange
 
     *The drawing steps are ordered from the first step to the last step starting with 0. 
-    The 0-step stands for for the initial board state (i.e., a blank board) prior to the first set of instructions, 
-    hence, does not consists of any instruction (the instruction element is "NONE"). <br/>  
-    Note that the length of the drawing proceudre (i.e., number of drawing steps) does not refer to the 0-step 
-    (e.g., a 6-length drawing procedure consists of 6 drawing steps from 1 to 6 in addition to the 0-step). 
+    The 0-step stands for the initial board state (i.e., a blank board) prior to the first set of instructions, 
+    hence, does not consists of any instruction (the instruction element is actually "NONE"). 
+    
+    Note that the length of a drawing proceudre (i.e., number of drawing steps) does not refer to the 0-step 
+    (e.g., a drawing procedure in length of 6 consists of 6 drawing steps nubered from 1 to 6 _in addition_ to the 0-step). <br>
+    trial
    
      
 ## Citation
