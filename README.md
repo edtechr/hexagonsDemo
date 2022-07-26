@@ -63,7 +63,7 @@ by the Board-Based _F1_ metric. A single tuple $(i_1, i_2, i_3)$ corresponds to 
     
     For further details on the agreement and metrics please refer to the [dataset section](https://edtechr.github.io/hexagonsDemo/dataset/)
 in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](https://edtechr.github.io/hexagonsDemo/#paper). 
- - `drawing_procedure`: A list of lists representing a drawing procedure. A sub-list [id, instruction, board state] 
+- `drawing_procedure`: A list of lists representing a drawing procedure. A sub-list [id, instruction, board state] 
  stands for a single drawing step and consists of: 
      - id: a number inidcating the drawing step position in the procedure*. 
      - instructions: the instructions written by the Instructor in that step.
@@ -73,9 +73,9 @@ in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](htt
      <img align="center" src="media/hexagon_board_numbered.PNG" height="200"></img>
      
      The digits run from 0 to 7 and stands for colors as follow: 
-        - '0': white
-        - '1': black
-        - '2': yellow
+        * '0': white
+        * '1': black
+        + '2': yellow
         - '3': green
         - '4': red
         - '5': blue
