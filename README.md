@@ -73,22 +73,19 @@ in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](htt
      <img align="center" src="media/hexagon_board_numbered.PNG" height="200"></img>
      
      The digits run from 0 to 7 and stands for colors as follow: 
-         - '0': white
-         - '1': black
-         - '2': yellow
-         - '3': green
-         - '4': red
-         - '5': blue
-         - '6': purple 
-         - '7': orange
+        - '0': white
+        - '1': black
+        - '2': yellow
+        - '3': green
+        - '4': red
+        - '5': blue
+        - '6': purple 
+        - '7': orange
 
     *The drawing steps are ordered from the first step to the last step starting with 0. 
     The 0-step stands for the initial board state (i.e., a blank board) prior to the first set of instructions, 
-    hence, does not consists of any instruction (the instruction element is actually "NONE"). 
-    
-    Note that the length of a drawing proceudre (i.e., number of drawing steps) does not refer to the 0-step 
-    (e.g., a drawing procedure in length of 6 consists of 6 drawing steps nubered from 1 to 6 _in addition_ to the 0-step). <br>
-    trial
+    hence, does not consists of any instruction (the instruction element is actually "NONE"). <br/> Note that the length of a drawing proceudre (i.e., number of drawing steps) does not refer to the 0-step 
+    (e.g., a drawing procedure in length of 6 consists of 6 drawing steps nubered from 1 to 6 _in addition_ to the 0-step).
    
      
 ## Citation
