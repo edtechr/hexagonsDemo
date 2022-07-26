@@ -45,22 +45,11 @@ the level of agreement between the Instructor and the two Verifiers for each dra
 The level of agreement is calculated by the Board-Based _Exact Match_ metric, that is, two executions of the instructions agree if and only if the denotations (i.e., the resulted board states on the Hexagons board) are identical.  <br/>
 The tags are arranged in the same order of the drawing steps in the procedure, such that
 each tag corresponds to a single drawing procedure. The tags can take one of the following values:  
-<ul style="list-style-type:none">
-     <li>- A</li>
-     <li>- B</li>
-     <li>- C</li>
-  </ul>
-      
- <ul style="list-style-type:square">     
- <li>- A</li>
-     <li>- B</li>
-     <li>- C</li>
-</ul>
-    -- 'A': Both Veirfiers agree with the Instructor.<br/> 
+    'A': Both Veirfiers agree with the Instructor.<br/> 
     -'V1': Only Verifier 1 agrees with the Instructor*. <br/> 
-    - 'V2': Only Verifier 2 agrees with the Instructor*.<br/> 
-    - 'VV': Verifiers agree with each other, but not with the Instructor. 
-    - 'F':  Verifiers does not agree with each other, neither with the Instructor.   
+    -'V2': Only Verifier 2 agrees with the Instructor*.<br/> 
+    -'VV': Verifiers agree with each other, but not with the Instructor. 
+    -'F':  Verifiers does not agree with each other, neither with the Instructor.       
     *The index next to the Verifiers is meaningless. 'V1' or 'V2' just means that only one Verifier agrees with the Instructor,
     and the index helps us to track which one. 
 For further details on the agreement and metrics please refer to the [dataset section](https://edtechr.github.io/hexagonsDemo/dataset/)
