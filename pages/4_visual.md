@@ -5,6 +5,6 @@ permalink: /visual/
 
 ## Visualization
 
-<iframe id="data_interface" src="https://yanaiela.github.io/TNE/data_interface/test/1491.html" title="TNE Explore" width="100%" height="720" frameBorder="0"></iframe>
+<iframe id="data_visualization" src="https://nlp.biu.ac.il/~royi/hexagon-paper-visualization/#/main" title="Dataset Visualization" style="width:100%; height:720px; border:none;"></iframe>
 
 <button id="full_screen" type="button" class="btn btn-primary btn-sm" onclick="fullScreen()">Go Full-Screen</button>
