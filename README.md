@@ -41,24 +41,24 @@ This index is synchornized with the [dataset visualization](https://edtechr.gith
 * `instructor`: a unique identifier of an Instructor marked as a number between 1 and 38. 24 Instructors participated in the first and secnd rounds, and 14 more in the Pilot and Recruitment phases.
 * `number_of_drawing_steps`: the number of drawing steps comprising the drawing procedure (i.e., the length of the drawing procedure).
 * `agreement_tags`: a list of tags in the same length of the drawing procedure that indicates 
-the level of agreement between the Instructor and the two Verifiers for each drawing step (find details in our [paper](https://edtechr.github.io/hexagonsDemo/#paper)).
-The level of agreement is calculated by the Board-Based _Exact Match_ metric, that is, two executions of the instructions agree if and only if the denotations (i.e., the resulted board states on the Hexagons board) are identical. 
+the level of agreement between the Instructor and the two Verifiers for each drawing step (find details in our [paper](https://edtechr.github.io/hexagonsDemo/#paper)). <br/>
+The level of agreement is calculated by the Board-Based _Exact Match_ metric, that is, two executions of the instructions agree if and only if the denotations (i.e., the resulted board states on the Hexagons board) are identical.  <br/>
 The tags are arranged in the same order of the drawing steps in the procedure, such that
 each tag corresponds to a single drawing procedure. The tags can take one of the following values:  
-    <ul style="list-style-type:none">
-         <li>- A</li>
-         <li>- B</li>
-         <li>- C</li>
-      </ul>
-      
-     <ul style="list-style-type:square">     
+<ul style="list-style-type:none">
      <li>- A</li>
-         <li>- B</li>
-         <li>- C</li>
-    </ul>
-    -'A': Both Veirfiers agree with the Instructor. 
-    -'V1': Only Verifier 1 agrees with the Instructor*. 
-    - 'V2': Only Verifier 2 agrees with the Instructor*.
+     <li>- B</li>
+     <li>- C</li>
+  </ul>
+      
+ <ul style="list-style-type:square">     
+ <li>- A</li>
+     <li>- B</li>
+     <li>- C</li>
+</ul>
+    -- 'A': Both Veirfiers agree with the Instructor.<br/> 
+    -'V1': Only Verifier 1 agrees with the Instructor*. <br/> 
+    - 'V2': Only Verifier 2 agrees with the Instructor*.<br/> 
     - 'VV': Verifiers agree with each other, but not with the Instructor. 
     - 'F':  Verifiers does not agree with each other, neither with the Instructor.   
     *The index next to the Verifiers is meaningless. 'V1' or 'V2' just means that only one Verifier agrees with the Instructor,
