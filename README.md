@@ -69,18 +69,19 @@ in our [website](https://edtechr.github.io/hexagonsDemo/) and to our [paper](htt
      - instructions: the instructions written by the Instructor in that step.
      - board state: a list of 180 digits indicating the resulted board state following the execution of the instructions by the Instructor. 
      The board size is 10 rows x 18 columns and is numbered left-to-right top-to-bottom as follow: 
-     
-     <img align="center" src="media/hexagon_board_numbered.PNG" height="200"></img>
-     
      The digits run from 0 to 7 and stands for colors as follow: 
         * '0': white
         * '1': black
-        + '2': yellow
+        * '2': yellow
         - '3': green
         - '4': red
         - '5': blue
         - '6': purple 
         - '7': orange
+     
+     <img align="center" src="media/hexagon_board_numbered.PNG" height="200"></img>
+     
+     
 
     *The drawing steps are ordered from the first step to the last step starting with 0. 
     The 0-step stands for the initial board state (i.e., a blank board) prior to the first set of instructions, 
