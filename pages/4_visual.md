@@ -12,6 +12,15 @@ permalink: /visual/
 <script>
     function fullScreen() {
         var url = document.getElementById('data_visualization').src;
-        window.location.replace(url);
+        window.location.replace(url, '_blank');
+        
         }
+        
+    // Selecting the iframe element
+    var iframe = document.getElementById("procedureFrame");
+    
+    // Adjusting the iframe height onload event
+    iframe.onload = function(){
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
 </script>
