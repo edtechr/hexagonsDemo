@@ -18,7 +18,7 @@ We invite you to join us in the endeavor to improve models’ abstraction capabi
 Explore the Hexagons [App](/hexagonsDemo/app) and [Game](/hexagonsDemo/game), get yourself familiar with the dataset through the [dataset visualization](/hexagonsDemo/visual), explore our [baseline models](models) capabilities in the [demo](/hexagonsDemo/demo), and download the [dataset](/hexagonsDemo/dataset) to devise your own cutting-edge model! 
 
 The project is run by the [NLPROg-CT team](#team) and directed by Prof. [Reut Tsarfaty](https://nlp.biu.ac.il/~rtsarfaty/) at  [Bar-Ilan University](https://biu-nlp.github.io/)
-and [Allen Institute for AI](https://allenai.org/).  
+and is endorsed by [Allen Institute for AI](https://allenai.org/).  
 
 
 <center>
