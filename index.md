@@ -49,7 +49,7 @@ Royi Lachmy, Valentina Pyatkin, Avshalom Manevich, Reut Tsarfaty
 <a name="team"></a>
 
 <div class="card">
-  <img src="media/royi.jpg" alt="Avatar" style="width:100%">
+  <img src="media/royi.jpg" alt="Avatar" style="width:105%">
   <div class="container">
     <!--  <a href="https://">-->
     <h4><b>Royi Lachmy</b></h4>  
@@ -67,7 +67,7 @@ Royi Lachmy, Valentina Pyatkin, Avshalom Manevich, Reut Tsarfaty
 </div>
 
 <div class="card">
-  <img src="media/avshalom.jpeg" alt="Avatar" style="width:100%">
+  <img src="media/avshalom.jpeg" alt="Avatar" style="width:80%">
   <div class="container">
     <!--  <a href="https://">-->
     <h4><b>Avshalom Manevich</b></h4>  
