@@ -1,4 +1,4 @@
-## **The Hexagons**
+## **Hexagons**
 
 The Natural Language Programming and Computational Thinking (NLPROg-CT) project at the [ONLP lab](https://nlp.biu.ac.il/~rtsarfaty/onlp) strives to explore the mutual interaction between human Computational Thinking and AI/NLP systems in order to contribute to the development of Natural Language Programming as well as advancing human Computational Thinking through Natural Language Programming. 
 
@@ -67,7 +67,7 @@ Royi Lachmy, Valentina Pyatkin, Avshalom Manevich, Reut Tsarfaty
 </div>
 
 <div class="card">
-  <img src="media/avshalom.jpeg" alt="Avatar" style="width:100%">
+  <img src="media/avshalom.jpeg" alt="Avatar" style="width:80%">
   <div class="container">
     <!--  <a href="https://">-->
     <h4><b>Avshalom Manevich</b></h4>  
