@@ -3,9 +3,13 @@ title: Gallery
 permalink: /gallery/
 ---
 
-## Visualization
+## Image Gallery
 
 <button id="full_screen" type="button" class="btn btn-primary btn-sm" onclick="fullScreen()">Go Full-Screen</button>
+
+This gallery displays all the images used in the Hexagons dataset and is organizsed by cateogires. 
+Once you select an image, insert its associated drawing procedures in the [visualization](/hexagonsDemo/visual). 
+As a rule, each image is assoicated with three <i> different </i> drawing procedures. 
 
 <iframe id="data_visualization" src="https://nlp.biu.ac.il/~royi/hexagon-paper-visualization-res/#/task-gallery" title="Dataset Visualization" style="width:100%; height:720px; border:none;"></iframe>
 

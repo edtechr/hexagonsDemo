@@ -58,7 +58,7 @@ Royi Lachmy, Valentina Pyatkin, Avshalom Manevich, Reut Tsarfaty
 </div>
 
 <div class="card">
-  <img src="media/valentina.png" alt="Avatar" style="width:100%">
+  <img src="media/valentina.PNG" alt="Avatar" style="width:100%">
   <div class="container">
     <a href="https://valentinapy.github.io/">
     <h4><b>Valentina Pyatkin</b></h4>
@@ -76,7 +76,7 @@ Royi Lachmy, Valentina Pyatkin, Avshalom Manevich, Reut Tsarfaty
 </div>
 
 <div class="card">
-  <img src="media/shira.jpeg" alt="Avatar" style="width:100%">
+  <img src="media/shira.PNG" alt="Avatar" style="width:100%">
   <div class="container">
     <!--  <a href="https://">-->
     <h4><b>Shira Kritchman</b></h4>  
