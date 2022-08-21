@@ -39,7 +39,7 @@ Royi Lachmy, Valentina Pyatkin, Avshalom Manevich, Reut Tsarfaty
   title={Draw me a Flower: {P}rocessing and Grounding Abstraction in Natural Language},
   author={Lachmy, Royi and Pyatkin, Valentina and Manevich, Avshalom and Tsarfaty, Reut},  
   year={2022},
-  Eprint = {arXiv:2106.14321}  
+  Eprint = {Accepted to Transaction of ACL}  
 }
 
 ```
