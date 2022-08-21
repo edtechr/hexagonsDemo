@@ -7,8 +7,8 @@ permalink: /gallery/
 
 <button id="full_screen" type="button" class="btn btn-primary btn-sm" onclick="fullScreen()">Go Full-Screen</button>
 
-This gallery displays all the images used in the Hexagons dataset and is organizsed by cateogires. 
-Once you select an image, insert its associated drawing procedures in the [visualization](/hexagonsDemo/visual). 
+This gallery displays all the images used in the Hexagons dataset and is organizsed by categories. 
+Once you select an image, insert its associated drawing procedures in the [Visualization](/hexagonsDemo/visual). 
 As a rule, each image is assoicated with three <i> different </i> drawing procedures. 
 
 <iframe id="data_visualization" src="https://nlp.biu.ac.il/~royi/hexagon-paper-visualization-res/#/task-gallery" title="Dataset Visualization" style="width:100%; height:720px; border:none;"></iframe>
@@ -18,7 +18,6 @@ As a rule, each image is assoicated with three <i> different </i> drawing proced
         var url = document.getElementById('data_visualization').src;
         window.open(url, '_blank');
         
-        }
-        
+        }        
     
 </script>

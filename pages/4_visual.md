@@ -4,6 +4,7 @@ permalink: /visual/
 ---
 
 ## Visualization
+You may insert an index of a drawing procedure or first select an image in the [Gallery](/hexagonsDemo/gallery) and then insert the indices of its associated drawing procedures. 
 
 <button id="full_screen" type="button" class="btn btn-primary btn-sm" onclick="fullScreen()">Go Full-Screen</button>
 
@@ -14,7 +15,6 @@ permalink: /visual/
         var url = document.getElementById('data_visualization').src;
         window.open(url, '_blank');
         
-        }
-        
+        }       
     
 </script>
