@@ -8,8 +8,11 @@ The Hexagons dataset comprises 4177 naturally-occurring visually grounded instru
 The dataset as well as the evaluation of its quality is described in the [paper](). <br/>
 
 The following table summarizes some of its properties. <br/>
-<img src="../media/dataset_statistics.PNG" style="width:70%">
 <img src="../media/dataset_statistics.PNG" style="width:50%">
 
 
-The dataset is split to train, dev, and test and may be downloaded [here]().<br>
+The dataset is split into train, dev, and test according to the following table and may be downloaded [here](). <br/>
+
+<img src="../media/split_statistics.PNG" style="width:50%">
+
+
