@@ -11,9 +11,9 @@ and [website](https://edtechr.github.io/hexagonsDemo/).
 ## Dataset
 
 ### Download
-* [Train](https://github.com/edtechr/hexagonsDemo/tree/main/data/train.jsonl.gz)
-* [Dev](https://github.com/edtechr/hexagonsDemo/tree/main/data/dev.jsonl.gz)
-* [Test](https://github.com/edtechr/hexagonsDemo/tree/main/data/test.jsonl.gz)
+* [Train](https://github.com/edtechr/hexagonsDemo/tree/main/data/train.jsonl.jsonl)
+* [Dev](https://github.com/edtechr/hexagonsDemo/tree/main/data/dev.jsonl.jsonl)
+* [Test](https://github.com/edtechr/hexagonsDemo/tree/main/data/test.jsonl.jsonl)
 
 
 ### Dataset Description
