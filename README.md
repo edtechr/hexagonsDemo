@@ -30,7 +30,7 @@ A drawing procedure consists of:
 
 * `index`: a unique identifier of a drawing procedure marked as a number between 0 and 619 such that the numbers run across train/dev/test in a random order. 
 This index is synchornized with the [dataset visualization](https://edtechr.github.io/hexagonsDemo/visual/) index, in order to allow user to visualize the drawing procedure by index.
-* `collection_round`: a unique identifier for each round where we collected drawing procedures. The values are:  
+* `annotation_round`: a unique identifier for each round where we collected drawing procedures. The values are:  
      - '1': The first round where we used images designed by the  [project team](https://edtechr.github.io/hexagonsDemo/#team).
      - '2': The second round where we used images designed by the experienced crowdworkers. 
      - '0': Preliminary rounds (results from the Pilot and Recruitment phases).
@@ -42,8 +42,8 @@ This index is synchornized with the [dataset visualization](https://edtechr.gith
 * `category`: The abstraction mechanism which the target image of a drawing procedure is intended to trigger. This is _not_ applicable for the second round. 
     The categoties consists of: 'simple', 'bounded iteration', 'conditional iteration', 'conditions', 'recursion', 'symmetry' and 'composed objects' and 'other'. 
     The value 'NONE' refers to drawing procedures from the second round, indicating that no category is associated with that image.
-* `image_index`: a unique identifier of an image (task) that is used as a target image for which a drawing procedure is written. The image index consists of 9-10 characters involving numbers and capital letters (e.g., 'P01C02T03') 
-* `instructor`: a unique identifier of an Instructor marked as a number between 1 and 38. 24 Instructors participated in the first and second rounds, and 14 more in the preliminary rounds. 
+* `image_id`: a unique identifier of an image (task) that is used as a target image for which a drawing procedure is written. The image index consists of 9-10 characters involving numbers and capital letters (e.g., 'P01C02T03') 
+* `instructor_id`: a unique identifier of an Instructor marked as a number between 1 and 38. 24 Instructors participated in the first and second rounds, and 14 more in the preliminary rounds. 
 * `number_of_drawing_steps`: the number of drawing steps comprising the drawing procedure (i.e., the length of the drawing procedure).
 * `agreement_tags`: a list of tags in the same length of the drawing procedure that indicates 
 the level of agreement between the Instructor and the two Verifiers for each drawing step (find details in our [paper](https://edtechr.github.io/hexagonsDemo/#paper)). <br/>
