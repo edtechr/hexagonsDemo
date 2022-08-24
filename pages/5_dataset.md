@@ -13,6 +13,6 @@ The following table summarizes some of its properties. <br/>
 
 The dataset is split into train, dev, and test according to the following table and may be downloaded [here](). <br/>
 
-<img src="../media/split_statistics.PNG" style="width:50%">
+<img src="../media/split_statistics.PNG" style="width:30%">
 
 
