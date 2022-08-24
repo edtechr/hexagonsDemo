@@ -5,7 +5,7 @@ permalink: /dataset/
 
 ## DATASET
 The Hexagons dataset comprises 4177 naturally-occurring visually grounded instructions rich with diverse types and levels of abstractions.<br/>
-The dataset as well as the evaluation of its quality is described in the [paper](/Hexagons/#paper). <br/>
+The dataset as well as the evaluation of its quality is described in the [paper](/hexagonsDemo/#paper). <br/>
 
 The following table summarizes some of its properties. <br/>
 <img src="../media/dataset_statistics.PNG" style="width:50%">
