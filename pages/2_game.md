@@ -24,6 +24,22 @@ Click the button to play the Instructor role.
 </script>
 
 
+<span style='font-size:20px;'>&#x1F481; <b> The Executor </b> </span> <br/>
+The Executor gets the instructions and has to execute them one by one on a blank Hexagons board in order to reconstruct the target image. 
+Click here to play the Instructor role
+
+<button id="full_screen" type="button" class="btn btn-primary btn-sm" onclick="fullScreen_ex()">Executor Demo</button>
+
+<img src="../media/executor_pane.PNG" height="600">
+
+<script>
+    function fullScreen_ex() {
+        var url = https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login   		
+        window.open(url, '_blank');        
+        }        
+    
+</script>
+
 (Under construction)
 
 [Home](/hexagonsDemo)
