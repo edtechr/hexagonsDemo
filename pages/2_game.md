@@ -13,7 +13,7 @@ Click the button to play the Instructor role.
 
 <img src="../media/instructor_pane.png" alt="Instructor Pane" height="70%" width="auto">
 
-<a href="https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login" class="btn btn-primary btn-sm"  target="_blank">Instructor Demo2</a>
+<a href="https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login" class="btn btn-primary btn-sm"  target="_blank">Instructor Demo</a>
 
 
 <span style='font-size:20px;'>&#x1F481;&#127998;&#x200D;&#x2642; <b> The Executor </b> </span> <br/>
@@ -22,4 +22,4 @@ Click here to play the Instructor role
 
 <img src="../media/executor_pane.png" alt="Instructor Pane" height="70%" width="auto">
 
-<a href="https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login" class="btn btn-primary btn-sm"  target="_blank">Instructor Demo2</a>
+<a href="https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login" class="btn btn-primary btn-sm"  target="_blank">Executor Demo</a>
