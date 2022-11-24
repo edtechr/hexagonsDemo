@@ -11,11 +11,18 @@ The Hexagons game is a 2-player instruction following game.
 The Instructor gets a target image on the Hexagons board and has to provide instructions for how to draw the image step by step. <br/> 
 Click the button to play the Instructor role.
 
-<form action="https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login ">
+<form action="https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login">
 	<button id="full_screen" type="button" class="btn btn-primary btn-sm" >Instructor Demo</button>
 </form>
 
-<img src="../media/instructor_pane.PNG" height="600">
+1<br/>
+<img src="../media/instructor_pane.png" height="600">
+2<br/>
+<img src="../media/erc.png" height="600">
+3<br/>
+<img src="/hexagonsDemo/media/instructor_pane.png" height="600">
+4<br/>
+<img src="/hexagonsDemo/media/erc.png" height="80">
 
 <script>
     function fullScreen_ins() {
