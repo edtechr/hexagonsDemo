@@ -14,7 +14,7 @@ The Instructor gets a target image on the Hexagons board and has to provide inst
 <img src="../media/instructor_pane.png" alt="Instructor Pane" height="70%" width="auto">
 
 Click the button to play the Instructor role.
-<a href="https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login" class="btn btn-primary btn-sm"  target="_blank">Instructor Demo</a>
+<a href="https://nlp.biu.ac.il/~royi/hexagon-paper-demo-collection/#/login" class="btn btn-primary btn-sm"  target="_blank">Instructor Demo</a>
 
 
 <span style='font-size:20px;'>&#x1F481;&#127998;&#x200D;&#x2642; <b> The Executor </b> </span> <br/>
@@ -23,4 +23,4 @@ The Executor gets the instructions and has to execute them one by one on a blank
 <img src="../media/executor_pane.png" alt="Instructor Pane" height="70%" width="auto">
 
 Click the button to play the Executor role.
-<a href="https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login" class="btn btn-primary btn-sm"  target="_blank">Executor Demo</a>
+<a href="none" class="btn btn-primary btn-sm"  target="_blank">Executor Demo</a>
