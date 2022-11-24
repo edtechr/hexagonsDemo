@@ -16,13 +16,13 @@ Click the button to play the Instructor role.
 </form>
 
 1<br/>
-<img src="../media/instructor_pane.png" height="600">
+<img src="../media/instructor_pane.png" alt=Instructor Pane">
 2<br/>
-<img src="../media/erc.png" height="600">
+<img src="../media/instructor_pane.png" height="200" width="auto">
 3<br/>
-<img src="/hexagonsDemo/media/instructor_pane.png" height="600">
+<img src="../media/instructor_pane.png" height="70%" width="auto">
 4<br/>
-<img src="/hexagonsDemo/media/erc.png" height="80">
+<img src="../media/instructor_pane.png" height="100px" width="100px">
 
 <script>
     function fullScreen_ins() {
