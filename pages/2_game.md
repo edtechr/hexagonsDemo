@@ -15,14 +15,12 @@ Click the button to play the Instructor role.
 	<button id="full_screen" type="button" class="btn btn-primary btn-sm" >Instructor Demo</button>
 </form>
 
-1<br/>
-<img src="../media/instructor_pane.png" alt=Instructor Pane">
-2<br/>
-<img src="../media/instructor_pane.png" height="200" width="auto">
-3<br/>
-<img src="../media/instructor_pane.png" height="70%" width="auto">
-4<br/>
-<img src="../media/instructor_pane.png" height="100px" width="100px">
+another button
+<a href="https://nlp.biu.ac.il/~royi/hexagon-app-collection-demo/#/login" class="btn btn-primary btn-sm">Instructor Demo2</a>
+
+
+<img src="../media/instructor_pane.png" alt="Instructor Pane" height="70%" width="auto">
+
 
 <script>
     function fullScreen_ins() {
@@ -39,7 +37,7 @@ Click here to play the Instructor role
 
 <button id="full_screen" type="button" class="btn btn-primary btn-sm" onclick="fullScreen_ex()">Executor Demo</button>
 
-<img src="../media/executor_pane.PNG" height="600">
+<img src="../media/executor_pane.png" alt="Instructor Pane" height="70%" width="auto">
 
 <script>
     function fullScreen_ex() {
