@@ -23,4 +23,4 @@ The Executor gets the instructions and has to execute them one by one on a blank
 <img src="../media/executor_pane.png" alt="Instructor Pane" height="70%" width="auto">
 
 Click the button to play the Executor role. <br/>
-<a href="none" class="btn btn-primary btn-sm"  target="_blank">Executor Demo</a>
+<a href="https://nlp.biu.ac.il/~royi/hexagon-paper-demo-verification/#/login" class="btn btn-primary btn-sm"  target="_blank">Executor Demo</a>
